@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 
+
 const PORT = 3000;
 
 app.use(express.json());
@@ -17,3 +18,7 @@ app.post("/register", (req, res) => {
 });
 
 app.listen(PORT, () => console.log("haihu " + PORT));
+
+
+
+
