@@ -16,9 +16,4 @@ app.post("/register", (req, res) => {
   res.status(201).json({ msg: "register berhasil" });
 });
 
-app.post("/login", (req, res) => {
-  console.log("angggap saja ini feature login");
-  res.status(200).json({ access_token: "eyoashdfponsaiu0" });
-});
-
 app.listen(PORT, () => console.log("haihu " + PORT));
